@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html ng-app="miniSimverApp">
+<head>
+    <title>{{vm.mensaje}}</title>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <a ng-href="#/entidades" class="btn btn-primary"><span class="glyphicon glyphicon-link"></span> Entidades</a>
+        <div ng-view></div>
+    </div>
+    <script src="../Scripts/underscore.js"></script>
+    <script src="../Scripts/angular.js"></script>
+    <script src="../Scripts/angular-route.js"></script>
+    <script src="../Scripts/angular-resource.js"></script>
+    <script src="app.js"></script>
+    <script src="services/entidadesFactory.js"></script>
+    <script src="controllers/indexController.js"></script>
+    <script src="controllers/entidadesController.js"></script>
+</body>
+</html>

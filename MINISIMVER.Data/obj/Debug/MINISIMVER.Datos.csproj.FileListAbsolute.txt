@@ -1,0 +1,12 @@
+C:\VS\VS2013\Projects\MINISIMVER\MINISIMVER.Data\bin\Debug\MINISIMVER.Datos.dll.config
+C:\VS\VS2013\Projects\MINISIMVER\MINISIMVER.Data\bin\Debug\MINISIMVER.Datos.dll
+C:\VS\VS2013\Projects\MINISIMVER\MINISIMVER.Data\bin\Debug\MINISIMVER.Datos.pdb
+C:\VS\VS2013\Projects\MINISIMVER\MINISIMVER.Data\bin\Debug\EntityFramework.dll
+C:\VS\VS2013\Projects\MINISIMVER\MINISIMVER.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\VS\VS2013\Projects\MINISIMVER\MINISIMVER.Data\bin\Debug\MINISIMVER.Modelos.dll
+C:\VS\VS2013\Projects\MINISIMVER\MINISIMVER.Data\bin\Debug\MINISIMVER.Modelos.pdb
+C:\VS\VS2013\Projects\MINISIMVER\MINISIMVER.Data\bin\Debug\EntityFramework.xml
+C:\VS\VS2013\Projects\MINISIMVER\MINISIMVER.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\VS\VS2013\Projects\MINISIMVER\MINISIMVER.Data\obj\Debug\MINISIMVER.Datos.csprojResolveAssemblyReference.cache
+C:\VS\VS2013\Projects\MINISIMVER\MINISIMVER.Data\obj\Debug\MINISIMVER.Datos.dll
+C:\VS\VS2013\Projects\MINISIMVER\MINISIMVER.Data\obj\Debug\MINISIMVER.Datos.pdb

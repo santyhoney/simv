@@ -1,0 +1,45 @@
+﻿<table class="table table-bordered table-striped" >
+    <thead>
+        <tr>
+            <th>Clave</th>
+            <th>Nombre</th>           
+            <th>&nbsp;</th>           
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="estado in vm.entidades">
+            <td>{{estado.Clave}}</td>
+            <td>{{estado.Nombre}}</td>
+            <td>
+                <button type="button" class="btn btn-warning" ng-click="vm.editarEntidad(estado)">Editar</button>
+                <button type="button" class="btn btn-danger" ng-click="vm.eliminarEntidad(estado)">Eliminar</button>
+            </td>
+        </tr>      
+    </tbody>
+</table>
+<input type="button" class="btn btn-primary" value="Crear entidad federativa" ng-click="vm.habilitarEdicionEntidad();" /> 
+<hr />
+<div class="panel panel-success" ng-show="vm.mostrarEdicion">
+    <div class="panel-heading">
+        <h1>Entidad</h1>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label>Clave</label>
+                    <input type="text" class="form-control" ng-model="vm.entidadEditable.Clave" />
+                </div>
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" class="form-control" ng-model="vm.entidadEditable.Nombre" />
+                    <input type="hidden" ng-model="vm.entidadEditable.Id" />
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success" ng-click="vm.guardarEntidad(vm.entidadEditable)" >Guardar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

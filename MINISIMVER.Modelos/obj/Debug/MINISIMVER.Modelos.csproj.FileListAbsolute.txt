@@ -1,0 +1,4 @@
+C:\VS\VS2013\Projects\MINISIMVER\MINISIMVER.Modelos\bin\Debug\MINISIMVER.Modelos.dll
+C:\VS\VS2013\Projects\MINISIMVER\MINISIMVER.Modelos\bin\Debug\MINISIMVER.Modelos.pdb
+C:\VS\VS2013\Projects\MINISIMVER\MINISIMVER.Modelos\obj\Debug\MINISIMVER.Modelos.dll
+C:\VS\VS2013\Projects\MINISIMVER\MINISIMVER.Modelos\obj\Debug\MINISIMVER.Modelos.pdb
